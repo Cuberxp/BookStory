@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:task="http://www.springframework.org/schema/tool"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tool http://www.springframework.org/schema/tool/spring-tool.xsd">
+
+    <!--开启注解扫描，只扫描Controller注解-->
+    <!--<context:component-scan base-package="cn.cuberxp">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>-->
+    <!--扫描controller包-->
+    <context:component-scan base-package="cn.cuberxp.controller"/>
+
+    <!--配置的视图解析器-->
+    <bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/views/"></property>
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+
+    <!--(2.静态资源默认servlet处理 (1)加入对静态资源的处理：js,gif,png (2)允许使用"/"做整体映射 &ndash;&gt;-->
+    <mvc:default-servlet-handler/>
+
+    <!--开启SpringMVC注解支持-->
+    <mvc:annotation-driven></mvc:annotation-driven>
+
+    <!--拦截器配置-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <!--登陆页面-->
+            <mvc:exclude-mapping path="/system/login"/>
+            <!--验证码-->
+            <mvc:exclude-mapping path="/system/get_cpacha"/>
+            <!--资源文件-->
+            <mvc:exclude-mapping path="/resource/**"/>
+            <bean class="cn.cuberxp.interceptor.LoginInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+</beans>
