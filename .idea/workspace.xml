@@ -6,421 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0152a02e-8b12-4580-8959-c0657a882c45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BookStory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/controller/MailContoller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/controller/ProductsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/controller/ViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/dao/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/dao/ProductsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/domain/OrderList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/domain/Orderitem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/domain/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/domain/Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/domain/ProductsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/service/MailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/service/ProductsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/service/impl/MailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/service/impl/ProductsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/util/Verification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/Bootstrop.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/cart/cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/foot.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/head.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/menu_search.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/order/order.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/order/orderInfo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/order/orderlist.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/product/product_info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/product/product_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/product/product_list2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/success/activesuccess.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/success/createOrderSuccess.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/success/delOrderSuccess.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/success/modifyUserInfoSuccess.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/success/registersuccess.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/modifyuserinfo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/modifyuserinfoupdateuser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/myAccount.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/js/jquery-3.2.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/js/jquery插件库.url" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/js/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/js/www.jq22.com.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/mail.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/mybatis/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/mybatis/mapper/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/testAddOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/testContainkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/testMail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/tetsProductsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/cn/cuberxp/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/cn/cuberxp/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/cn/cuberxp/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/cn/cuberxp/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/cn/cuberxp/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/cn/cuberxp/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/activesuccess.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ad/index_ad.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/ad/index_ad.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ad/myad.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/ad/myad.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ad/page_ad.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/ad/page_ad.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/css/Style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/dtree.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/css/dtree.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/left.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/css/left.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/base.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/base.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/cd.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/cd.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/empty.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/empty.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/folder.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/folder.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/globe.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/globe.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/join.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/join.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/line.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/line.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/minus.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/minus.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/page.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/page.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/plus.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/plus.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/question.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/question.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/trash.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/trash.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/js/check.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/js/check.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/js/dtree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/js/dtree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/js/public.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/js/public.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/login/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/login/bottom.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/login/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/login/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/login/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/login/left.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/login/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/login/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/login/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/login/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/orders/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/orders/error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/orders/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/orders/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/orders/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/orders/view.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/products/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/products/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/products/download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/products/download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/products/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/products/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/products/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/products/error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/products/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/products/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/abc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/abc.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/bc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/bc.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/bcc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/bcc.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/beijingnongshang.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/beijingnongshang.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/bh.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/bh.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/bj.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/bj.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/ccb.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/ccb.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/cib.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/cib.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/cmb.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/cmb.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/cmbc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/cmbc.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/dy.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/dy.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/gf.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/gf.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/guangda.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/guangda.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/hx.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/hx.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/icbc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/icbc.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/nanjing.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/nanjing.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/ningbo.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/ningbo.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/pingan.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/pingan.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/post.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/post.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/sfz.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/sfz.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/sh.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/sh.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/shpd.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/shpd.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/zheshang.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/zheshang.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/zx.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/zx.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/101.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/101.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/102.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/102.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/103.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/103.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/104.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/104.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/105.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/105.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/106.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/106.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/107.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/107.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/bookcover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/bookcover.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/code.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/code.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/dayongxiaohua.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/dayongxiaohua.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/dulala.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/dulala.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/euro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/euro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/fish.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/fish.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/java2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/java2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/ngcn.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/ngcn.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/oneplant.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/oneplant.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/photog.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/photog.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/subwayinshanghai.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/subwayinshanghai.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/think.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/think.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/travelbook.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/travelbook.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/tripcn.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/tripcn.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/cart.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/confirm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/createOrderSuccess.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/delOrderSuccess.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/error/privilege.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/error/privilege.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/foot.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/head.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/IconTexto_WebDev_009.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/IconTexto_WebDev_009.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/billboard.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/billboard.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/bottomlogo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/bottomlogo.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/botton_gif_025.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/botton_gif_025.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/buy.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/buy.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/buy.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/buy.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/buy1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/buy1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/buy2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/buy2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/buy3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/buy3.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/buybutton.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/buybutton.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/car_step8.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/car_step8.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/cart.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/cart.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/check_use.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/check_use.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/error.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/error.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/finalbutton.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/finalbutton.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/gif53_029.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/gif53_029.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/gwc_buy.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/gwc_buy.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/gwc_jx.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/gwc_jx.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/hottitle.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/hottitle.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/index.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/index.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/info.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/info.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/infobg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/infobg.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/loginbg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/loginbg.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/loginbutton.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/loginbutton.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/loginline.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/loginline.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/logintitle.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/logintitle.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/logo.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/menubg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/menubg.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/miniicon.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/miniicon.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/miniicon2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/miniicon2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/miniicon3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/miniicon3.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/orderbutton.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/orderbutton.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/productlist.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/productlist.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/productlist.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/productlist.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/serchbutton.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/serchbutton.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/signup.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/signup.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/signupbutton.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/signupbutton.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/success.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/success.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/js/my.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/menu_search.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/modifyUserInfoSuccess.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/modifyuserinfo.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/myAccount.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/order.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/orderInfo.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/orderlist.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pay.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/paysuccess.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/product_info.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/product_list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/registersuccess.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resource/mybatis/mapper/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/mybatis/mapper/UserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resource/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/spring/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resource/springmvc/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/springmvc/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/interceptor/LoginInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/mybatis/mapper/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/mybatis/mapper/UserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/spring/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/springmvc/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/springmvc/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/activesuccess.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/ad/index_ad.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/ad/myad.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/ad/page_ad.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/css/Style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/css/dtree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/css/left.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/base.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/cd.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/empty.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/folder.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/globe.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/join.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/line.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/minus.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/page.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/plus.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/question.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/trash.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/js/check.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/js/dtree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/js/public.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/login/bottom.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/login/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/login/left.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/login/top.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/login/welcome.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/orders/error.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/orders/list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/orders/view.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/products/add.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/products/download.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/products/edit.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/products/error.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/products/list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/abc.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/bc.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/bcc.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/beijingnongshang.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/bh.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/bj.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/ccb.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/cib.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/cmb.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/cmbc.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/dy.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/gf.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/guangda.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/hx.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/icbc.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/nanjing.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/ningbo.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/pingan.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/post.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/sfz.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/sh.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/shpd.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/zheshang.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/zx.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/101.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/102.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/103.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/104.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/105.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/106.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/107.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/bookcover.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/code.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/dayongxiaohua.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/dulala.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/euro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/fish.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/java2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/ngcn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/oneplant.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/photog.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/subwayinshanghai.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/think.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/travelbook.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/tripcn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/cart.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/confirm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/createOrderSuccess.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/delOrderSuccess.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/error/privilege.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/foot.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/head.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/IconTexto_WebDev_009.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/billboard.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/bottomlogo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/botton_gif_025.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/buy.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/buy.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/buy1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/buy2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/buy3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/buybutton.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/car_step8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/cart.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/check_use.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/error.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/finalbutton.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/gif53_029.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/gwc_buy.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/gwc_jx.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/hottitle.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/index.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/info.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/infobg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/loginbg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/loginbutton.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/loginline.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/logintitle.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/logo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/menubg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/miniicon.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/miniicon2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/miniicon3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/orderbutton.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/productlist.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/productlist.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/serchbutton.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/signup.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/signupbutton.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/images/success.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/js/my.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/menu_search.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/modifyUserInfoSuccess.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/modifyuserinfo.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/myAccount.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/order.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/orderInfo.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/orderlist.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/pay.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/paysuccess.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/product_info.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/product_list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/register.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BookStory/registersuccess.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/cuberxp/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/cuberxp/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/cuberxp/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/cuberxp/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/cuberxp/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/cuberxp/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/cuberxp/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/cuberxp/interceptor/LoginInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/cuberxp/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/cuberxp/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/cuberxp/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/cuberxp/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mapper/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/mapper/UserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springmvc/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springmvc/springmvc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0152a02e-8b12-4580-8959-c0657a882c45" name="Default Changelist" comment="test" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -493,7 +79,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/resource/springmvc/springmvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
+            <state relative-caret-position="335">
               <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
             </state>
           </provider>
@@ -701,7 +287,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562295590141" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562295937512" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../设计/Trasys_two" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -997,7 +583,7 @@
       <workItem from="1562163059260" duration="3941000" />
       <workItem from="1562202165508" duration="12163000" />
       <workItem from="1562235623482" duration="8803000" />
-      <workItem from="1562290001260" duration="5414000" />
+      <workItem from="1562290001260" duration="5656000" />
     </task>
     <servers />
   </component>
@@ -1034,7 +620,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176197000" />
+    <option name="totallyTimeSpent" value="176439000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1048,7 +634,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49312377" visible="true" weight="0.24329759" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49312377" visible="true" weight="0.24329759" />
       <window_info id="Structure" order="1" sideWeight="0.506" side_tool="true" weight="0.21715818" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1058,7 +644,7 @@
       <window_info id="Web" order="7" sideWeight="0.50687623" side_tool="true" weight="0.21983914" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33002833" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.2917847" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.2917847" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1070,7 +656,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" visible="true" weight="0.3696884" />
       <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32956153" />
       <window_info anchor="bottom" id="Database Console" order="16" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1086,6 +672,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1437,7 +1027,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resource/springmvc/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state relative-caret-position="335">
           <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
         </state>
       </provider>
