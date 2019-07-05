@@ -3,6 +3,7 @@
        xmlns:mvc="http://www.springframework.org/schema/mvc"
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:task="http://www.springframework.org/schema/tool"
+       xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/mvc
@@ -17,9 +18,9 @@
     <!--扫描controller包-->
     <context:component-scan base-package="cn.cuberxp.controller"/>
 
-    <!--配置的视图解析器-->
+    <!-- &lt;!&ndash;配置的视图解析器&ndash;&gt;-->
     <bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/views/"></property>
+        <property name="prefix" value="WEB-INF/view"></property>
         <property name="suffix" value=".jsp"></property>
     </bean>
 
@@ -27,19 +28,36 @@
     <mvc:default-servlet-handler/>
 
     <!--开启SpringMVC注解支持-->
-    <mvc:annotation-driven></mvc:annotation-driven>
+    <mvc:annotation-driven/>
 
     <!--拦截器配置-->
     <mvc:interceptors>
         <mvc:interceptor>
             <mvc:mapping path="/**"/>
             <!--登陆页面-->
-            <mvc:exclude-mapping path="/system/login"/>
+            <mvc:exclude-mapping path="/login"/>
+            <mvc:exclude-mapping path="/login.do"/>
+            <mvc:exclude-mapping path="/index"/>
+            <!--注册-->
+            <mvc:exclude-mapping path="/register"/>
+            <mvc:exclude-mapping path="/register.do"/>
+
+            <!--产品浏览-->
+            <mvc:exclude-mapping path="/product_info.do"/>
+            <mvc:exclude-mapping path="/product_info"/>
+            <!--产品列表-->
+            <mvc:exclude-mapping path="/product_list"/>
+            <mvc:exclude-mapping path="/showProductByCategory.do"/>
+
+            <mvc:exclude-mapping path="/checkLogin.do"/>
             <!--验证码-->
-            <mvc:exclude-mapping path="/system/get_cpacha"/>
+            <mvc:exclude-mapping path="/getCode"/>
+            <!--用户激活-->
+            <mvc:exclude-mapping path="/active"/>
             <!--资源文件-->
-            <mvc:exclude-mapping path="/resource/**"/>
+            <mvc:exclude-mapping path="/staticresource/**"/>
             <bean class="cn.cuberxp.interceptor.LoginInterceptor"/>
         </mvc:interceptor>
     </mvc:interceptors>
+
 </beans>

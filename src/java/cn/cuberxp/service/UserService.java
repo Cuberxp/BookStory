@@ -11,4 +11,11 @@ import cn.cuberxp.domain.User;
  */
 public interface UserService {
     void addUser(User user);
+    User findUserById(Integer id);
+    User findUserByUsername(String username);
+    User findUserByUP(String username, String password);
+    void updateUser(Integer id, String password, String gender, String telephone);
+
+    //激活用户
+    Boolean activeUser(String username,String activeCode);
 }

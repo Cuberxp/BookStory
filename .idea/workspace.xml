@@ -6,7 +6,421 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0152a02e-8b12-4580-8959-c0657a882c45" name="Default Changelist" comment="" />
+    <list default="true" id="0152a02e-8b12-4580-8959-c0657a882c45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/BookStory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/controller/MailContoller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/controller/ProductsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/controller/ViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/dao/ProductsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/domain/OrderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/domain/Orderitem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/domain/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/domain/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/domain/ProductsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/service/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/service/ProductsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/service/impl/MailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/service/impl/ProductsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/util/Verification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/Bootstrop.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/cart/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/foot.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/menu_search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/order/order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/order/orderInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/order/orderlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/product/product_info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/product/product_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/product/product_list2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/success/activesuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/success/createOrderSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/success/delOrderSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/success/modifyUserInfoSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/success/registersuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/modifyuserinfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/modifyuserinfoupdateuser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/myAccount.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/js/jquery插件库.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/js/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/js/www.jq22.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/mail.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/mybatis/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/mybatis/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testAddOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testContainkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/tetsProductsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/cn/cuberxp/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/cn/cuberxp/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/cn/cuberxp/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/cn/cuberxp/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/cn/cuberxp/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/cn/cuberxp/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/cn/cuberxp/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/activesuccess.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ad/index_ad.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/ad/index_ad.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ad/myad.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/ad/myad.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ad/page_ad.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/ad/page_ad.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/css/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/dtree.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/css/dtree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/left.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/css/left.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/base.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/base.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/cd.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/cd.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/empty.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/empty.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/folder.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/folder.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/globe.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/globe.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/join.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/join.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/line.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/line.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/minus.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/minus.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/page.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/page.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/plus.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/plus.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/question.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/question.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/tree/trash.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/images/tree/trash.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/js/check.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/js/check.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/js/dtree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/js/dtree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/js/public.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/js/public.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/login/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/login/bottom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/login/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/login/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/login/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/login/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/login/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/login/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/login/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/login/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/orders/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/orders/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/orders/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/orders/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/orders/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/orders/view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/products/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/products/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/products/download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/products/download.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/products/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/products/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/products/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/products/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/products/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/admin/products/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/abc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/abc.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/bc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/bc.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/bcc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/bcc.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/beijingnongshang.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/beijingnongshang.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/bh.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/bh.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/bj.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/bj.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/ccb.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/ccb.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/cib.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/cib.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/cmb.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/cmb.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/cmbc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/cmbc.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/dy.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/dy.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/gf.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/gf.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/guangda.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/guangda.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/hx.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/hx.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/icbc.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/icbc.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/nanjing.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/nanjing.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/ningbo.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/ningbo.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/pingan.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/pingan.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/post.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/post.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/sfz.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/sfz.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/sh.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/sh.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/shpd.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/shpd.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/zheshang.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/zheshang.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bank_img/zx.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bank_img/zx.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/101.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/101.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/102.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/102.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/103.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/103.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/104.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/104.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/105.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/105.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/106.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/106.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/107.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/107.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/TS9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/TS9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/bookcover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/bookcover.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/code.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/code.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/dayongxiaohua.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/dayongxiaohua.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/dulala.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/dulala.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/euro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/euro.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/fish.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/fish.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/java2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/java2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/ngcn.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/ngcn.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/oneplant.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/oneplant.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/photog.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/photog.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/subwayinshanghai.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/subwayinshanghai.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/think.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/think.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/travelbook.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/travelbook.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookcover/tripcn.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/bookcover/tripcn.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cart.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/confirm.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/createOrderSuccess.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/delOrderSuccess.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/error/privilege.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/error/privilege.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/foot.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/head.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/IconTexto_WebDev_009.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/IconTexto_WebDev_009.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/billboard.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/billboard.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/bottomlogo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/bottomlogo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/botton_gif_025.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/botton_gif_025.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/buy.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/buy.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/buy.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/buy.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/buy1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/buy1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/buy2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/buy2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/buy3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/buy3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/buybutton.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/buybutton.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/car_step8.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/car_step8.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/cart.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/cart.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/check_use.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/check_use.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/error.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/error.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/finalbutton.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/finalbutton.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/gif53_029.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/gif53_029.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/gwc_buy.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/gwc_buy.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/gwc_jx.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/gwc_jx.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/hottitle.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/hottitle.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/index.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/index.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/info.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/info.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/infobg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/infobg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/loginbg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/loginbg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/loginbutton.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/loginbutton.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/loginline.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/loginline.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/logintitle.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/logintitle.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/logo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/menubg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/menubg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/miniicon.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/miniicon.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/miniicon2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/miniicon2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/miniicon3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/miniicon3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/orderbutton.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/orderbutton.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/productlist.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/productlist.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/productlist.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/productlist.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/serchbutton.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/serchbutton.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/signup.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/signup.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/signupbutton.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/signupbutton.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/success.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/images/success.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staticresource/js/my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/menu_search.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/modifyUserInfoSuccess.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/modifyuserinfo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/myAccount.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/order.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/orderInfo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/orderlist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pay.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/paysuccess.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/product_info.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/product_list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/registersuccess.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/mybatis/mapper/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/mybatis/mapper/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/spring/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/springmvc/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/springmvc/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/cn/cuberxp/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/mybatis/mapper/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/mybatis/mapper/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/spring/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/springmvc/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory/WEB-INF/classes/springmvc/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/activesuccess.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/ad/index_ad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/ad/myad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/ad/page_ad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/css/Style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/css/dtree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/css/left.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/base.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/cd.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/empty.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/folder.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/globe.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/join.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/line.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/minus.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/page.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/plus.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/question.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/images/tree/trash.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/js/check.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/js/dtree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/js/public.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/login/bottom.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/login/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/login/left.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/login/top.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/login/welcome.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/orders/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/orders/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/orders/view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/products/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/products/download.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/products/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/products/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/admin/products/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/abc.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/bc.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/bcc.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/beijingnongshang.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/bh.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/bj.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/ccb.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/cib.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/cmb.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/cmbc.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/dy.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/gf.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/guangda.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/hx.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/icbc.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/nanjing.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/ningbo.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/pingan.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/post.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/sfz.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/sh.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/shpd.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/zheshang.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bank_img/zx.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/102.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/103.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/104.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/105.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/107.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/TS9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/bookcover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/code.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/dayongxiaohua.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/dulala.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/euro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/fish.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/java2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/ngcn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/oneplant.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/photog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/subwayinshanghai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/think.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/travelbook.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/bookcover/tripcn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/cart.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/confirm.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/createOrderSuccess.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/delOrderSuccess.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/error/privilege.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/foot.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/head.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/IconTexto_WebDev_009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/billboard.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/bottomlogo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/botton_gif_025.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/buy.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/buy.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/buy1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/buy2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/buy3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/buybutton.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/car_step8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/cart.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/check_use.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/error.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/finalbutton.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/gif53_029.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/gwc_buy.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/gwc_jx.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/hottitle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/index.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/info.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/infobg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/loginbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/loginbutton.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/loginline.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/logintitle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/menubg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/miniicon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/miniicon2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/miniicon3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/orderbutton.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/productlist.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/productlist.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/serchbutton.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/signup.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/signupbutton.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/images/success.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStory/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/js/my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/menu_search.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/modifyUserInfoSuccess.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/modifyuserinfo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/myAccount.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/order.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/orderInfo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/orderlist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/pay.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/paysuccess.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/product_info.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/product_list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStory/registersuccess.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/cuberxp/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/cuberxp/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/cuberxp/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/cuberxp/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/cuberxp/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/cuberxp/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/cuberxp/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/cuberxp/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/cuberxp/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/cuberxp/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/cuberxp/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/cuberxp/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mapper/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/mapper/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springmvc/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springmvc/springmvc.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,106 +450,90 @@
         <item name="bookstore@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bookstore@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bookstore: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bookstore@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bookstore: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="orders: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bookstore@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bookstore: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="products: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="BookStory" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/dao/UserDao.java">
+        <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/controller/ViewController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/domain/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="357">
+              <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/sql/Date.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resource/springmvc/springmvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/resource/spring/applicationContext.xml">
+        <entry file="file://$PROJECT_DIR$/src/resource/springmvc/springmvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+            <state relative-caret-position="186">
+              <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resource/jdbc.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/cart/cart.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+            <state relative-caret-position="71">
+              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/controller/ProductsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="73" column="34" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/interceptor/LoginInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="10" column="82" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -145,29 +543,93 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="c306-config.xml" />
+        <option value="spring-beans.schema" />
         <option value="Interface" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hot</find>
+      <find>pag</find>
+      <find>showProductByCategory</find>
+      <find>add</find>
+      <find>upddate</find>
+      <find>myAccount</find>
+      <find>addpr</find>
+      <find>book</find>
+      <find>bookcover</find>
+      <find>son</find>
+      <find>jackson</find>
+      <find>mod</find>
+      <find>234</find>
+      <find>234234</find>
+      <find>send</find>
+      <find>startSecond</find>
+      <find>second</find>
+      <find>divsearch</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/resource/springmvc/springmvc.xml" />
+        <option value="$PROJECT_DIR$/src/resource/mail.properties" />
+        <option value="$PROJECT_DIR$/src/resource/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/java/cn/cuberxp/controller/MailController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/orderInfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/order.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/error/privilege.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/resource/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/java/cn/cuberxp/interceptor/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/java/cn/cuberxp/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/java/cn/cuberxp/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/java/cn/cuberxp/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/resource/mybatis/mapper/UserDao.xml" />
-        <option value="$PROJECT_DIR$/src/java/cn/cuberxp/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/java/cn/cuberxp/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/registersuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/activesuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/activesuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/activesuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/order/delOrderSuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/Bootstrop.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/foot.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" />
+        <option value="$PROJECT_DIR$/src/java/cn/cuberxp/controller/ProductsController.java" />
+        <option value="$PROJECT_DIR$/src/java/cn/cuberxp/controller/CartController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/error/privilege.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/order/orderInfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/product/product_info.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/success/activesuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/success/createOrderSuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/success/delOrderSuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/success/modifyUserInfoSuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/success/registersuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/head.jsp" />
+        <option value="$PROJECT_DIR$/src/java/cn/cuberxp/service/impl/MailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/java/cn/cuberxp/service/MailService.java" />
+        <option value="$PROJECT_DIR$/src/test/testMail.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/java/cn/cuberxp/controller/ViewController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/register.jsp" />
         <option value="$PROJECT_DIR$/src/java/cn/cuberxp/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/order/orderlist.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/myAccount.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/modifyuserinfoupdateuser.jsp" />
+        <option value="$PROJECT_DIR$/src/java/cn/cuberxp/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/src/java/cn/cuberxp/controller/MailContoller.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/modifyuserinfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/order/order.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/product/product_list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/staticresource/js/my.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/java/cn/cuberxp/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/resource/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/menu_search.jsp" />
+        <option value="$PROJECT_DIR$/src/java/cn/cuberxp/interceptor/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/resource/springmvc/springmvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/cart/cart.jsp" />
       </list>
     </option>
   </component>
@@ -203,16 +665,19 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="330" />
-    <option name="y" value="65" />
-    <option name="width" value="1445" />
-    <option name="height" value="885" />
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="524" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,101 +690,41 @@
               <item name="BookStory" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BookStory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookStory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookStory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookStory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookStory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookStory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="cuberxp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookStory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookStory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookStory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookStory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookStory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookStory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookStory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookStory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookStory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookStory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookStory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookStory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookStory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookStory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561429453871" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562295590141" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../设计/Trasys_two" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="I:\BookStory\src\main\webapp\admin" />
+      <recent name="I:\BookStory\src\main\webapp\WEB-INF\view\success" />
+      <recent name="I:\BookStory\src\main\webapp\WEB-INF\view\product" />
+      <recent name="I:\BookStory\src\main\webapp\WEB-INF\view" />
+      <recent name="I:\BookStory\src\main\webapp" />
+      <recent name="I:\BookStory\src\main\webapp\WEB-INF\view\user" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="I:\BookStory\src\main\webapp\admin" />
-      <recent name="I:\BookStory\src\main\webapp\WEB-INF" />
+      <recent name="I:\BookStory\src\main\webapp\WEB-INF\view\user" />
       <recent name="I:\BookStory\src\main\webapp" />
-      <recent name="I:\BookStory\src\resource" />
+      <recent name="I:\BookStory\src\java\cn\cuberxp\service\impl" />
+      <recent name="I:\BookStory\src\java\cn\cuberxp\service" />
+      <recent name="I:\BookStory\src\resource\mybatis\mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -334,8 +739,54 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.34">
+    <configuration name="testContainkey.testContain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookStory" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testContainkey" />
+      <option name="METHOD_NAME" value="testContain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookStory" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testMail" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testMail.testSenderText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookStory" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testMail" />
+      <option name="METHOD_NAME" value="testSenderText" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tetsProductsDao.testTOtal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookStory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="tetsProductsDao" />
+      <option name="METHOD_NAME" value="testTOtal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 8.5.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="BookStory:war">
@@ -345,7 +796,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_BookStory" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_BookStory_2" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -353,7 +804,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="52076" />
+        <option name="DEBUG_PORT" value="50451" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -407,6 +858,95 @@
         </option>
       </method>
     </configuration>
+    <configuration name="cart.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/cart.jsp" />
+      <deployment>
+        <artifact name="BookStory:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/BookStory_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="cart_jsp_BookStory" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50785" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="BookStory:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.tetsProductsDao.testTOtal" />
+      <item itemvalue="JUnit.testContainkey.testContain" />
+      <item itemvalue="JUnit.testMail" />
+      <item itemvalue="JUnit.testMail.testSenderText" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.34" />
+      <item itemvalue="Tomcat Server.cart.jsp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.testMail" />
+        <item itemvalue="JUnit.testMail.testSenderText" />
+        <item itemvalue="Tomcat Server.cart.jsp" />
+        <item itemvalue="JUnit.testContainkey.testContain" />
+        <item itemvalue="JUnit.tetsProductsDao.testTOtal" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -420,48 +960,126 @@
       <updated>1561359587301</updated>
       <workItem from="1561359590627" duration="1483000" />
       <workItem from="1561361105170" duration="5077000" />
-      <workItem from="1561428334344" duration="1082000" />
+      <workItem from="1561428334344" duration="19603000" />
+      <workItem from="1561471318537" duration="293000" />
+      <workItem from="1561471639841" duration="3795000" />
+      <workItem from="1561481576458" duration="904000" />
+      <workItem from="1561515822011" duration="3966000" />
+      <workItem from="1561520138960" duration="613000" />
+      <workItem from="1561520819916" duration="5383000" />
+      <workItem from="1561528499864" duration="2908000" />
+      <workItem from="1561532141972" duration="1109000" />
+      <workItem from="1561533323860" duration="1063000" />
+      <workItem from="1561536183010" duration="4876000" />
+      <workItem from="1561545117414" duration="6480000" />
+      <workItem from="1561551817301" duration="1094000" />
+      <workItem from="1561602842745" duration="6259000" />
+      <workItem from="1561612464390" duration="1146000" />
+      <workItem from="1561614015245" duration="68000" />
+      <workItem from="1561615419844" duration="11324000" />
+      <workItem from="1561631107026" duration="6790000" />
+      <workItem from="1561718885481" duration="6173000" />
+      <workItem from="1561726717150" duration="127000" />
+      <workItem from="1561726952932" duration="66000" />
+      <workItem from="1561803656416" duration="5068000" />
+      <workItem from="1561957218045" duration="8942000" />
+      <workItem from="1561969279564" duration="6600000" />
+      <workItem from="1561990179869" duration="7776000" />
+      <workItem from="1562027098516" duration="3155000" />
+      <workItem from="1562031127357" duration="7441000" />
+      <workItem from="1562045490635" duration="3128000" />
+      <workItem from="1562063518725" duration="1690000" />
+      <workItem from="1562065294940" duration="5327000" />
+      <workItem from="1562073337855" duration="1198000" />
+      <workItem from="1562133994461" duration="1758000" />
+      <workItem from="1562143841885" duration="2636000" />
+      <workItem from="1562162428624" duration="557000" />
+      <workItem from="1562163059260" duration="3941000" />
+      <workItem from="1562202165508" duration="12163000" />
+      <workItem from="1562235623482" duration="8803000" />
+      <workItem from="1562290001260" duration="5414000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="testMail - 2019.07.02 at 20h 18m 48s.xml">
+      <configuration name="testMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testMail - 2019.07.02 at 20h 19m 39s.xml">
+      <configuration name="testMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testMail - 2019.07.02 at 20h 21m 20s.xml">
+      <configuration name="testMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testMail - 2019.07.02 at 20h 22m 16s.xml">
+      <configuration name="testMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testMail_testSenderText - 2019.07.02 at 20h 24m 49s.xml">
+      <configuration name="testMail.testSenderText" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testMail_testSenderText - 2019.07.03 at 16h 53m 24s.xml">
+      <configuration name="testMail.testSenderText" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testMail - 2019.07.03 at 22h 15m 49s.xml">
+      <configuration name="testMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testMail - 2019.07.03 at 22h 16m 38s.xml">
+      <configuration name="testMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testMail - 2019.07.03 at 22h 35m 19s.xml">
+      <configuration name="testMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testMail - 2019.07.03 at 22h 38m 10s.xml">
+      <configuration name="testMail" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7642000" />
+    <option name="totallyTimeSpent" value="176197000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49312377" visible="true" weight="0.24329759" />
+      <window_info id="Structure" order="1" sideWeight="0.506" side_tool="true" weight="0.21715818" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5042194" side_tool="true" weight="0.24396783" />
+      <window_info id="Web" order="7" sideWeight="0.50687623" side_tool="true" weight="0.21983914" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41584158" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33002833" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.2917847" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.2917847" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.1621984" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.1802949" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="6" weight="0.030160857" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -474,95 +1092,142 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/pay.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/paysuccess.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/controller/MailController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/order/orderInfo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resource/mybatis/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/error/privilege.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="265">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
           <folding>
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#2;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#td#0;n#tr#0;n#table#2;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/481acb12-aa2c-47ba-80b8-74cee2d9d7bd/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resource/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/interceptor/LoginInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/controller/CartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="313">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/success/createOrderSuccess.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="59" column="78" lean-forward="true" selection-start-line="59" selection-start-column="78" selection-end-line="59" selection-end-column="78" />
+        <state relative-caret-position="80">
+          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/success/delOrderSuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/success/modifyUserInfoSuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="35" column="81" lean-forward="true" selection-start-line="35" selection-start-column="81" selection-end-line="35" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/foot.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/staticresource/images/gwc_buy.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/service/MailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/service/ProductsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#td#0;n#tr#2;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#1;n#td#1;n#tr#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#table#1;n#td#1;n#tr#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        <state relative-caret-position="285">
+          <caret line="196" column="8" selection-start-line="196" selection-start-column="8" selection-end-line="196" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/orders/list.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/products/download.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/error/privilege.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+        <state relative-caret-position="311">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resource/mybatis/mapper/UserDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="375">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="280">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/domain/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/staticresource/images/botton_gif_025.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="902">
+          <caret line="72" column="21" lean-forward="true" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/service/impl/MailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -571,63 +1236,209 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        <state relative-caret-position="242">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/product/product_info.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="251">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/standardSchemas/xhtml1-transitional.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="930" column="10" selection-start-line="930" selection-start-column="10" selection-end-line="930" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/controller/MailContoller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/sql/Date.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/order/orderlist.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+        <state relative-caret-position="375">
+          <caret line="81" column="48" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/staticresource/images/productlist.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/product/product_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        <state relative-caret-position="256">
+          <caret line="52" column="78" lean-forward="true" selection-start-line="52" selection-start-column="78" selection-end-line="52" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resource/jdbc.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/order/order.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+        <state relative-caret-position="209">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/success/activesuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/staticresource/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7238">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/success/registersuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="13" column="93" selection-start-line="13" selection-start-column="93" selection-end-line="13" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/staticresource/js/my.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="332">
+          <caret line="125" column="19" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/Bootstrop.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/modifyuserinfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/staticresource/js/user.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/modifyuserinfoupdateuser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/myAccount.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/menu_search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/controller/ViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resource/springmvc/springmvc.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        <state relative-caret-position="167">
+          <caret line="10" column="82" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resource/spring/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/interceptor/LoginInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+        <state relative-caret-position="228">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/cn/cuberxp/controller/ProductsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="73" column="34" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/cart/cart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/springmvc/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
         </state>
       </provider>
     </entry>
